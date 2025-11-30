@@ -1,0 +1,13 @@
+1) public static void main() -----> Error: Main method not found in class MainMethod
+
+2)  class error {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				System.out.println("Hello");
+				System.out.println(args[0]);
+			}
+}------> Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+
+3)  if we do not import java.util.Scanner; ---------> Scanner cannot be resolved to a type 
+Because Scanner is not part of the default java.lang package.
