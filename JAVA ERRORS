@@ -11,3 +11,5 @@
 
 3)  if we do not import java.util.Scanner; ---------> Scanner cannot be resolved to a type 
 Because Scanner is not part of the default java.lang package.
+
+4) if we give wrong datatype -----> input mismatch
